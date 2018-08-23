@@ -62,7 +62,7 @@ public class BaseTest
 		{
 			// Specify the driver location here. I used
 						// object repository inside project directory
-			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer1.exe");
 			driver=new InternetExplorerDriver();
 		}
 		else
