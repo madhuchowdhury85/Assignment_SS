@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.077683">
+<testcase classname="Custom Made product create and verify" name="Create a custom made Jacket and verify the product details" time="33.077683">
+<system-out><![CDATA[Given User is in home page and verify the title of home page................passed
+When Navigate to a product and user is in custom made product detail page...passed
+Then Choose the color of the product........................................passed
+Then Choose the design of the product.......................................passed
+Then Choose the product from color and design combination...................passed
+Then Choose the fit of the product..........................................passed
+Then Choose the size of the product.........................................passed
+Then Verify the product fabric in Custom made section.......................passed
+Then Verify the product fit in Custom made section..........................passed
+Then Verify the product size in Custom made section.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

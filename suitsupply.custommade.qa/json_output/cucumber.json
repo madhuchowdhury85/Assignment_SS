@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5538939818,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CustomMadeProductsSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create a custom made Jacket and verify the product details",
+        "description": "",
+        "id": "custom-made-product-create-and-verify;create-a-custom-made-jacket-and-verify-the-product-details",
+        "after": [
+          {
+            "result": {
+              "duration": 551702082,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CustomMadeProductsSteps.endTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 657892044,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CustomMadeProductsSteps.logOut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352914724,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in home page and verify the title of home page",
+            "match": {
+              "location": "CustomMadeProductsSteps.user_is_in_home_page_and_verify_the_title_of_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4576963057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to a product and user is in custom made product detail page",
+            "match": {
+              "location": "CustomMadeProductsSteps.navigate_to_a_product_and_user_is_in_custom_made_product_detail_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3846364247,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Choose the color of the product",
+            "match": {
+              "location": "CustomMadeProductsSteps.choose_the_color_of_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1532841496,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Choose the design of the product",
+            "match": {
+              "location": "CustomMadeProductsSteps.choose_the_design_of_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237723590,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Choose the product from color and design combination",
+            "match": {
+              "location": "CustomMadeProductsSteps.choose_the_product_from_color_and_design_combination()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3201793665,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Choose the fit of the product",
+            "match": {
+              "location": "CustomMadeProductsSteps.choose_the_fit_of_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10321278658,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Choose the size of the product",
+            "match": {
+              "location": "CustomMadeProductsSteps.choose_the_size_of_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108752987,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the product fabric in Custom made section",
+            "match": {
+              "location": "CustomMadeProductsSteps.verify_the_product_fabric_in_Custom_made_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60566380,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the product fit in Custom made section",
+            "match": {
+              "location": "CustomMadeProductsSteps.verify_the_product_fit_in_Custom_made_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89949793,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify the product size in Custom made section",
+            "match": {
+              "location": "CustomMadeProductsSteps.verify_the_product_size_in_Custom_made_section()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Custom Made product create and verify",
+    "description": "",
+    "id": "custom-made-product-create-and-verify",
+    "keyword": "Feature",
+    "uri": "./Feature/SuitSupplyCustomMade.feature"
+  }
+]
